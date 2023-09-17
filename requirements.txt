@@ -1,0 +1,12 @@
+bitsandbytes
+accelerate
+loralib
+numpy
+xmltodict
+scikit-learn
+scipy
+peft==0.5.0
+datasets>=2.14.4
+wandb>=0.15.8
+torch==2.0.1
+transformers==4.32.0
