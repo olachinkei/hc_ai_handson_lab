@@ -1,0 +1,23 @@
+version: '3'
+services:
+  hc_ai_handson_lab:
+    build: .
+    image: olachinkei/hc_ai_handson_lab
+    container_name: hc_ai_handson_lab
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - WANDB_API_KEY=${WANDB_API_KEY}
+    working_dir: /work
+    volumes:
+      - ./src:/work
+    ports:
+      - "8888:8888"
+    command:
+      jupyter-lab --ip 0.0.0.0 --allow-root -b localhost
