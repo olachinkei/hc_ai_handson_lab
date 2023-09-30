@@ -9,6 +9,12 @@ __pycache__/
 # extensions
 *.pkl
 
+# folder
+wandb/
+checkpoint/
+artifacts/
+finetuned_model/
+
 # Distribution / packaging
 .Python
 build/
