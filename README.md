@@ -30,5 +30,6 @@ If you want to open jupyterlab, Run the following code.
 ```
 docker exec -it hc_ai_handson_lab /bin/bash
 ```
+You can find jupyter lab tocken with `jupyter lab list`
 
 If you want to learn the basics of environment setup in Japanese, please refer [自前GPUをDeep Learning開発用にセットアップしてみた](https://kkamata.com/%e8%87%aa%e5%89%8dgpu%e3%82%92deep-learning%e9%96%8b%e7%99%ba%e7%94%a8%e3%81%ab%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/).
