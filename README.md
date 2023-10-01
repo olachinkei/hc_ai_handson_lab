@@ -19,5 +19,16 @@ pip install -r requirements.txt
 1. set environment variable of `WANDB_API_KEY`
 2. build docker container
 ```
-docker-compose up -d
-``
+docker compose up -d --build
+```
+
+If you want to run python file on this environment, Run the following code
+```
+docker exec -it <container name> python xxx.py
+```
+If you want to open jupyterlab, Run the following code.
+```
+docker exec -it <container name> python xxx.py
+```
+
+If you want to learn the basics of environment setup in Japanese, please refer [自前GPUをDeep Learning開発用にセットアップしてみた](https://kkamata.com/%e8%87%aa%e5%89%8dgpu%e3%82%92deep-learning%e9%96%8b%e7%99%ba%e7%94%a8%e3%81%ab%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/).
