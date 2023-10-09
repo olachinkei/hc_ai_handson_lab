@@ -14,6 +14,8 @@ wandb/
 checkpoint/
 artifacts/
 finetuned_model/
+output/
+outputs/
 
 # Distribution / packaging
 .Python

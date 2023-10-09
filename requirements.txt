@@ -1,8 +1,11 @@
 bitsandbytes
 accelerate
+fuzzywuzzy
 loralib
+langchain
 numpy
 xmltodict
+sentencepiece
 scikit-learn
 scipy
 peft==0.5.0
